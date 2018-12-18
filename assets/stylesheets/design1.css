@@ -1,0 +1,124 @@
+body {
+    position:relative;
+}
+
+.titlebox{
+    
+   position: relative;
+    height: 100px;
+    z-index: 1;
+}
+
+.box{
+    background-image: url(design1_image1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+    height: 300px;
+    box-sizing:border-box;
+    position: relative;
+    z-index: 1;
+    
+    
+    
+    
+    
+}
+
+.box h2{
+    color: white;
+    text-align: center;
+   background-color: black;
+   position: absolute;
+    bottom: 0;
+    width: 100%
+}
+    
+
+.page{
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width:100%;
+    top: 200px;
+}
+
+.logo{
+    width: 200px;
+   float: right;
+    position: relative;
+    bottom: 100px;
+    right:50px;
+   display: block;
+    z-index: 2;
+}
+
+img{
+    width: 100%;
+   
+}
+
+nav{
+    
+    margin-top: 100px;
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+}
+nav a{
+    display:block;
+    padding-bottom:70px;
+}
+
+.box2{
+    display: inline-block;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+
+
+
+h2{
+    
+    height: 40px;
+    margin-bottom: 0;
+}
+
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+   
+}
+a {
+    text-decoration: none;
+}
+
+.box2 p{
+    margin-left:50px;
+}
+
+.box h1{
+    width: 100%;
+    position: absolute;
+    top:0;
+    font-size: 70px;
+   background-color: white;
+    font: color black;
+    margin-top: 0;
+    
+    
+}
+
+
+
+
+
+
+    
+        
+

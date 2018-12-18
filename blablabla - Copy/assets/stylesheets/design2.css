@@ -1,0 +1,115 @@
+body {
+    position:relative;
+}
+
+/*.title   {margin-top: 200px;}*/
+
+.titlebox{
+    
+   position: relative;
+    height: 100px;
+    z-index: 1;
+}
+
+.box{
+    background-image: url(design1_image1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+    height: 300px;
+    box-sizing:border-box;
+    position: relative;
+    z-index: 1;
+    
+    
+    
+    
+    
+}
+
+.box h2{
+    color: white;
+    text-align: center;
+   background-color: black;
+   position: absolute;
+    bottom: 0;
+    width: 100%
+}
+    
+
+.page{
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width:100%;
+    top: 200px;
+}
+
+.logo{
+    width: 200px;
+   margin-top: 50px;
+    position: relative;
+    
+      display: inline-block;
+    z-index: 2;
+}
+
+img{
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    z-index: 2;
+    
+    
+}
+nav a{
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    background: blue;
+}
+
+.box2{
+    display: inline-block;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 50px;
+}
+.active{
+    background: green;
+}
+
+h1{
+    width: 100%;
+    position: absolute;
+    top:0;
+    font-size: 70px;
+   background-color: white;
+    font: color black;
+    margin-top: 0;
+    
+    
+}
+h2{
+    
+    height: 40px;
+    margin-bottom: 0;
+}
+
+span{
+    font-weight:bold;
+}
+
+table{width: 100%;}
+td {
+    text-align: left;
+}
